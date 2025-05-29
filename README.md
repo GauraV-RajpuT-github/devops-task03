@@ -1,22 +1,24 @@
 # DevOps Git Project
 
-
 ## Objective
-Implement Git best practices using branching, PRs, tags, and documentation.
+Manage a DevOps project using Git best practices including branching, tagging, and documentation.
 
-## Branches
-- `main`: Stable release
-- `dev`: Development integration
-- `feature/*`: For individual features
+## Branching Strategy
+- `main`: Stable production-ready code
+- `dev`: Integration branch for development
+- `feature/*`: Feature-specific branches
 
-## Features
-- Proper Git workflow
-- Use of `.gitignore`
+## Git Features Used
+- Commit history for traceability
+- Branching and merging via pull requests
+- Tags for version control
+- .gitignore to avoid committing unnecessary files
 - Markdown documentation
-- Version tagging
 
-## How to Use
-Clone the repo, switch to dev, work on features, and raise PRs.
+## Getting Started
+1. Clone the repository
+2. Switch to `dev` or create a `feature` branch
+3. Develop, commit, push, and raise a pull request
 
 ## Author
-[Your Name]
+gaurav
